@@ -1,0 +1,132 @@
+/* rwd */
+img{
+  display: block !important;
+  width: 100%;
+}
+
+/* font */
+h1{
+  background-image: url('../images/Let’s\ Travel\ !.png');
+  height: 235px;
+  background-repeat: no-repeat;
+}
+
+.font--1{
+  font-size: 20px;
+}
+
+/* text */
+.text--primary{
+  color: #00807E;
+}
+
+.text--gray{
+  color: #818A91;
+}
+
+.bg--primary{
+  background-color: #00807E;
+}
+
+.bg--secondary{
+  background-color: #64C3BF;
+}
+
+.bg--muted{
+  background-color: #F7F7F7;
+}
+
+/* spacing */
+.mt--top{
+  margin-top: 180px;
+}
+
+.mb--bottom{
+  margin-bottom: 92px;
+}
+
+.mb--6{
+  margin-bottom: 20px;
+}
+
+.mb--7{
+  margin-bottom: 32px;
+}
+
+.mr--6{
+  margin-right: 30px
+}
+
+.pt--6{
+  padding-top: 64px;
+}
+
+.pb--6{
+  padding-bottom: 80px;
+}
+
+.px--6{
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.px--7{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* border */
+.border-bottom--primary{
+  border-bottom: 2px #00807E solid; 
+}
+
+.border-bottom--primary--sm{
+  border-bottom: 1px #00807E solid; 
+}
+
+/* form */
+textarea::placeholder{
+  padding-left: 12px;
+}
+
+select{
+  border-radius: 0px;
+}
+
+/* width、height*/
+.width--tag{
+  width: 80px;
+}
+
+.width--tag--sm{
+  width: 40px;
+}
+
+.height--inside{
+  height: 270px;
+}
+
+/* position */
+.z-index--100{
+  z-index: 100;
+}
+
+.top{
+  top: -15px;
+}
+
+.left{ 
+  left: 0px;
+}
+
+/* Card */s
+.card-body{
+  min-height: 296px;
+}
+
+/* hover */
+.card-title > a:hover{
+  background-color: #64C3BF;
+  color: white;
+}
+
