@@ -157,7 +157,11 @@ function pieChart () {
         label: {
           show: false
         },
-        width: 12
+        width: 12,
+        size: {
+          height: 200,
+          width: 200
+        }
     }
   });
 }
